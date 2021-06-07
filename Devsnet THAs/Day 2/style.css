@@ -1,0 +1,61 @@
+/* font */
+@import url(<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">);
+
+/* colors */
+:root {
+    Aquamarine:#7FFFD4;
+    Black:#000000;
+    Aqua:#00FFFF;
+    BlanchedAlmond: #FFEBCD;
+}
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ 
+
+body {
+    font-family: 'IBM plex Sans', sans-serif;
+    background: var(Aqua);
+    --webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin:0;
+    line-height: 1;
+
+}
+
+.container {
+    max-width:1140px;
+    margin:0 auto;
+}
+nav {
+    background: var(black);
+    padding:1.6rem 0;
+}
+nav .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav .inner .logo {
+    text-transform: uppercase;
+    color: rgb(214, 205, 255);
+    font-size: 18px;
+    letter-spacing; 1px;
+    font-weight: 500;
+}
+nav .inner button {
+    background: blue;
+    border: none;
+    padding: 0.6rem 1rem;
+    color:black;
+    font-size:14px;
+    border-radius: 4px;
+}    
+
+    
