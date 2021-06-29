@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THA-11 Quiz</title>
+    <link rel="stylesheet" href="quiz.css" />
+  </head>
+  <body>
+    <p class="heading">Awesome Quiz</p>
+
+    <div class="Wns">Wrong Answer</div>
+    <div class="Cns">Correct Answer</div>
+    <div class="End">Game Over</div>
+
+    <section>
+      
+      <div class="quiz">
+        <p1 style="font-size: 20px;">Score: <span id="score" style="color: white;">0</span></p1>
+        <h2 id="question">Question</h2>
+    
+        <div class="options">
+          <div class="option">
+            <p id="option1-statement">A</p>
+            <p id="option1" class="button">Select Answer</p>
+          </div>
+          <div class="option">
+            <p id="option2-statement">B</p>
+            <p id="option2" class="button">Select Answer</p>
+          </div>
+          <div class="option">
+            <p id="option3-statement">C</p>
+            <p id="option3" class="button">Select Answer</p>
+          </div>
+          <div class="option">
+            <p id="option4-statement">D</p>
+            <p id="option4" class="button">Select Answer</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="reset" class="button" style="text-align: center">
+        Reset
+      </div>
+    </section>
+
+    <script src="Quiz.js"></script>
+  </body>
+</html>
