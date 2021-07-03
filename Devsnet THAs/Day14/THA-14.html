@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THA-14 </title>
+    <style>
+      .container {
+        height: 80vh;
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .box {
+        border: 1px solid black;
+        height: 200px;
+        width: 200px;
+      }
+      em {
+        color: rgb(5, 188, 201);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Assignment 14 </h1>
+    <h3>
+      See console:
+      <em
+        >onload, onerror, onmousedown, oninvalid, onplay,
+        onkeydown, onkeyup</em
+      >
+    </h4>
+    <div class="container">
+      <div
+        class="box"
+        onload="onld()"
+        onerror="onerr()"
+        onmousedown="mouseDown()"
+        oninvalid="oninvld()"
+        onplay="onply()"
+      ></div>
+      <input type="text" onkeydown="keyDown()" placeholder="Key Down" />
+      <input type="text" onkeyup="keyUp()" placeholder="Key Up" />
+    </div>
+    <script src="./func.js"></script>
+  </body>
+</html>
